@@ -1,0 +1,116 @@
+const Cakes = {
+	cake1: {
+	   name:"Ocean delight",
+	   image:"https://images.com,
+	   desc: "A dash of hot chockolate on icing",
+	   availability : {
+		1:{size:10in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		2:{size:12in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		3:{size:15in,
+		   price: 3500,
+		   status: "Not available"
+		   }
+	   }
+
+
+	},
+
+	cake2: {
+	   name:"Ruff and tumble",
+	   image:"https://images.com,
+	   desc: "fondant icing with soft middle",
+	   availability : {
+		1:{size:10in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		2:{size:12in,
+		   price: 3500,
+		   status: "Not available"
+		   }, 
+		3:{size:15in,
+		   price: 3500,
+		   status: "Not available"
+		   }
+	   }
+
+
+	},
+
+	cake3: {
+	   name:"Shokoloko bangoshe",
+	   image:"https://images.com,
+	   desc: "shokolade und reis",
+	   
+	   availability : {
+		1:{size:10in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		2:{size:12in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		3:{size:15in,
+		   price: 3500,
+		   status: "Not available"
+		   }
+	   }
+
+
+	},
+
+	cake4: {
+	   name:"Ocean delight",
+	   image:"https://images.com,
+	   desc: "A dash of hot chockolate on icing"
+	   price: 3500,
+	   availability : {
+		1:{size:10in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		2:{size:12in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		3:{size:15in,
+		   price: 3500,
+		   status: "Not available"
+		   }
+	   }
+
+
+	},
+
+	cake5: {
+	   name:"Ocean delight",
+	   image:"https://images.com,
+	   desc: "A dash of hot chockolate on icing"
+	   price: 3500,
+	   availability : {
+		1:{size:10in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		2:{size:12in,
+		   price: 3500,
+		   status: "available"
+		   }, 
+		3:{size:15in,
+		   price: 3500,
+		   status: "Not available"
+		   }
+	   }
+
+
+	}
+
+
+}
