@@ -22,7 +22,6 @@ const Header = props =>(
 );
 
 
-
 // class Header extends React.Component{
 
 //     render(){

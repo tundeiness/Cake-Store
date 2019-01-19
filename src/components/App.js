@@ -8,7 +8,6 @@ import Cake from "./Cakes";
 //import sampleFishes from "../sample-fishes";
 
 
-
 class App extends React.Component{
 
     // setting the state can be done in 2 ways: property approach
@@ -31,7 +30,7 @@ class App extends React.Component{
         this.setState({ 
             // setState is actually an instruction which says "please update these states"
             // to use it one must have declared/ set a state.
-            cakes:cakes
+            cakes
         });
 
     }
@@ -51,7 +50,7 @@ class App extends React.Component{
 
     loadSampleCakes = () =>{
         // alert("Loading the ol cakes yo!");
-        this.setState =({
+        this.setState({
             cakes:sampleCakes
         });
     };
@@ -72,7 +71,7 @@ class App extends React.Component{
                     </ul>
                 </div>
                 <Order /> 
-                <Inventory addCake={this.addCake} loadSampleCakes = {this.loadSampleCakes}/>
+                <Inventory addCake={this.addCake} loadSampleCakes={this.loadSampleCakes}/>
             </div>       
         );
     }
